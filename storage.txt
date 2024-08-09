@@ -1,0 +1,2 @@
+<span class="styleQty">9</span> <span class="styleQtyAvailText">available</span> <span class="styleAt">@</span> <span class="stylePrice
+                                                                        "> $0.59 </span>
