@@ -14,6 +14,9 @@ chroptions.add_argument("--headless=new")
 driver = webdriver.Chrome(options = chroptions)
 
 def checkit(siteaddr, elementxpath):
+    '''
+    Checks if any change is detected in the chosen element.
+    '''
     driver.get(siteaddr)
 
     element = WebDriverWait(driver, 5).until(
@@ -35,7 +38,6 @@ def checkit(siteaddr, elementxpath):
 
     driver.close()
 
-    
 
 
 if __name__ == "__main__":
